@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 23, 2019 12:41:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="beans.Invigilator_details" table="invigilator_details">
+        <id name="invigilatorId" type="string">
+            <column name="Invigilator_Id" length="20" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="invigilatorPassword" type="string">
+            <column name="Invigilator_Password" length="30" />
+        </property>
+        <property name="invigilatorName" type="string">
+            <column name="Invigilator_Name" length="30" />
+        </property>
+        <property name="invigilatorBase" type="string">
+            <column name="Invigilator_Base" length="30" not-null="true" />
+        </property>
+        <property name="department" type="java.lang.Integer">
+            <column name="Department" />
+        </property>
+        <property name="designation" type="string">
+            <column name="Designation" length="30" />
+        </property>
+        <property name="allowanceKey" type="string">
+            <column name="Allowance_Key" length="20" />
+        </property>
+        <property name="emailId" type="string">
+            <column name="Email_Id" length="30" not-null="true" />
+        </property>
+        <property name="contactNumber" type="long">
+            <column name="Contact_Number" not-null="true" />
+        </property>
+        <property name="qualification" type="string">
+            <column name="Qualification" length="30" not-null="true" />
+        </property>
+        <property name="experience" type="string">
+            <column name="Experience" length="30" not-null="true" />
+        </property>
+        <property name="specializedSubject1" type="string">
+            <column name="Specialized_Subject1" length="30" not-null="true" />
+        </property>
+        <property name="specializedSubject2" type="string">
+            <column name="Specialized_Subject2" length="30" not-null="true" />
+        </property>
+        <property name="specializedSubject3" type="string">
+            <column name="Specialized_Subject3" length="30" not-null="true" />
+        </property>
+        <property name="specializedSubject4" type="string">
+            <column name="Specialized_Subject4" length="30" not-null="true" />
+        </property>
+        <property name="address" type="string">
+            <column name="Address" length="70" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
