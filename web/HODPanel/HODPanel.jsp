@@ -189,6 +189,8 @@
                                     <button class="btn btn-dark" data-toggle="tooltip" data-placement="top" data-html="true" title="Send Message to invigilator of our department" formaction="../HODPanel/HodMessage.jsp">Message</button><br><br>
 
                                 </form>
+<!--<button class="btn btn-dark" data-toggle="tooltip" data-placement="top" data-html="true" title="Send Message to invigilator of our department"><a href="../HODPanel/HodMessage.jsp">Message</a></button><br><br>-->
+
                             </div>
                         </div>
                     </div>

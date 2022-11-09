@@ -372,7 +372,7 @@
                         <%--<td><a href='getStudents.jsp?sub=<%= sub1%>&code=<%= o.getDepartment()%>' class="btn btn-primary">getStudents</a></td>--%>
 
                         <td><form action="../getStudentsServlet">
-                                <input type="text" value='<%= sub1%>' name="sub" hidden>
+                                <input type="text" value='<%= sub1 %>' name="sub" hidden>
                                 <input type="submit" value="RegisteredStudents" data-toggle="tooltip" data-placement="top" data-html="true" title="<%=cname.get(sub1)+""+sub1%>" class="btn btn-primary" >
                             </form></td>
 
@@ -396,7 +396,7 @@
                         <td><a href="" data-toggle="tooltip" data-placement="top" data-html="true" title="<%=sub2%>" class="btn btn-warning"><%= cname.get(sub2)%></a></td>
                         <td><%=dept%></td>
                         <td><form action="../getStudentsServlet">
-                                <input type="text" value='<%= sub2%>' name="sub" hidden>
+                                <input type="text" value='<%= sub2 %>' name="sub" hidden>
                                 <input type="submit" value="RegisteredStudents" data-toggle="tooltip" data-placement="top" data-html="true" title="<%=cname.get(sub2)+""+sub2%>" class="btn btn-primary">
                             </form></td>
 
@@ -419,7 +419,7 @@
                         <td><a href="" data-toggle="tooltip" data-placement="top" data-html="true" title="<%=sub3%>" class="btn btn-warning"><%= cname.get(sub3)%></a></td>
                         <td><%=dept%></td>
                         <td><form action="../getStudentsServlet">
-                                <input type="text" value='<%= sub3%>' name="sub" hidden>
+                                <input type="text" value='<%= sub3 %>' name="sub" hidden>
                                 <input type="submit" value="RegisteredStudents" data-toggle="tooltip" data-placement="top" data-html="true" title="<%=cname.get(sub3)+""+sub3%>" class="btn btn-primary">
 
                             </form></td>
@@ -443,7 +443,7 @@
                         <td><a href="" data-toggle="tooltip" data-placement="top" data-html="true" title="<%=sub4%>" class="btn btn-warning"><%=cname.get(sub4)%></a></td>
                         <td><%=dept%></td>
                         <td><form action="../getStudentsServlet">
-                                <input type="text" value='<%= sub4%>' name="sub" hidden>
+                                <input type="text" value='<%= sub4 %>' name="sub" hidden>
                                 <input type="submit" value="RegisteredStudents" data-toggle="tooltip" data-placement="top" data-html="true" title="<%= cname.get(sub4)+""+sub4%>" class="btn btn-primary">
                             </form></td>
                             <%
